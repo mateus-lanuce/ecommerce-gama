@@ -3,7 +3,6 @@ import maca from'./images/maca.jpg';
 import tenis from './images/tenis.jpg';
 import macbook from './images/macbook.jpg';
 import React, { useState } from 'react';
-import axios from 'axios';
 
 function App() {
 
