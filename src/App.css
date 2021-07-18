@@ -1,0 +1,84 @@
+.App {
+  width: 100%;
+	margin: 0 auto;
+  text-align: center;
+}
+
+.header {
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4rem;
+  width: 100%;
+  background-color: #0f233c;
+  color: aliceblue;
+}
+
+
+.input-header {
+  display: inline-flex;
+  align-items: center;
+}
+
+.input-header h3 {
+  margin-right: 30px;
+}
+
+.input-header input {
+  border-radius: 5px;
+  width: 200px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.input-header button {
+  width: auto;
+  border-radius: 10%;
+}
+
+.input-header button:hover {
+  width: auto;
+  border-radius: 30%;
+  color: rebeccapurple;
+}
+
+.container {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.produtos {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  max-width: fit-content;
+  padding: 10px;
+  align-items: center; 
+  border: 5px solid gray;
+}
+
+.texto-produto-titulo {
+  text-align: center;
+  padding: 10px;
+	font-size: 2rem;
+	font-family: sans-serif;
+	color: #333;
+}
+
+.texto-produto-descricao {
+  text-align: center;
+	font-size: 1rem;
+	font-family: sans-serif;
+	color: #333;
+}
+
+.texto-preco {
+  text-align: center;
+  padding-top: 25px;
+	font-size: 3rem;
+  font-weight: 700;
+	font-family: sans-serif;
+	color: #333;
+}
