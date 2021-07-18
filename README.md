@@ -3,3 +3,5 @@
 ### Usei a create-react-app para iniciar como um template de react
 
 o que aprendi com isso? ainda preciso melhorar muito no front end mas consegui fazer bem rapido o back end.
+
+link do projeto online: https://ecommerce-ten-zeta.vercel.app/
